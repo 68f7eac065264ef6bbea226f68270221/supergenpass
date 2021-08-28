@@ -7,7 +7,7 @@
 This is the official repository of [SuperGenPass][sgp]. It contains code for the
 bookmarklet and the mobile version. The underlying algorithm that is used by
 SuperGenPass to generate passwords has its own repository:
-[chriszarate/supergenpass-lib][sgp-lib].
+[68f7eac065264ef6bbea226f68270221/supergenpass-lib][sgp-lib].
 
 Please see the [homepage][sgp] to obtain the latest stable version of the
 bookmarklet and the mobile version. For questions, please see the [FAQ][faq].
@@ -39,7 +39,7 @@ are? Do you like the idea of using a slightly quirky password solution? You
 SuperGenPass development requires [Grunt][grunt]:
 
 ```shell
-git clone https://github.com/chriszarate/supergenpass.git && cd supergenpass
+git clone https://github.com/68f7eac065264ef6bbea226f68270221/supergenpass.git && cd supergenpass
 npm install
 grunt
 ```
@@ -63,13 +63,13 @@ are not reviewed and compatibility is not guaranteed.
 
 
 [sgp]: http://supergenpass.com
-[sgp-lib]: https://github.com/chriszarate/supergenpass-lib
-[build-status]: https://travis-ci.org/chriszarate/supergenpass.svg?branch=master
-[travis-ci]: https://travis-ci.org/chriszarate/supergenpass
+[sgp-lib]: https://github.com/68f7eac065264ef6bbea226f68270221/supergenpass-lib
+[build-status]: https://travis-ci.org/68f7eac065264ef6bbea226f68270221/supergenpass.svg?branch=master
+[travis-ci]: https://travis-ci.org/68f7eac065264ef6bbea226f68270221/supergenpass
 [saucelabs-status]: https://saucelabs.com/browser-matrix/supergenpass.svg
 [saucelabs]: https://saucelabs.com/u/supergenpass
-[faq]: https://github.com/chriszarate/supergenpass/wiki/FAQ
+[faq]: https://github.com/68f7eac065264ef6bbea226f68270221/supergenpass/wiki/FAQ
 [grunt]: http://gruntjs.com
 [gp]: https://github.com/chriszarate/genpass
 [gplv2]: http://www.gnu.org/licenses/gpl-2.0.html
-[implementations]: https://github.com/chriszarate/supergenpass/wiki/Implementations
+[implementations]: https://github.com/68f7eac065264ef6bbea226f68270221/supergenpass/wiki/Implementations
