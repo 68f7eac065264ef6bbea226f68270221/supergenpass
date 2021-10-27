@@ -488,6 +488,32 @@ input[type="checkbox"]:checked + label:hover {
    transition: background 0s linear;
 }
 
+/* Clear-clipboard button */
+
+#ClearButton {
+   float: right;
+   width: 24px;
+   height: 14px;
+   margin-top: 0;
+   background-color: #356;
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAaVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8G612AAAAInRSTlMAre4afAejEw/n08nE81AqJwz49Onk0rZvaWBDODQiAdVUHFPT4gAAAWZJREFUWMPdl9muwyAMRIEszZ50Sfd1/v8jb9xWqGq4rcFSHzIvISEc4cEGoT4JT336ZzKAKO1ff8ZI474+jZRVZwBfAGBaC9AIAUBbgAkD1COzSC7z/oNPEeAy1WXaV4CGU5oNaJ1TMC0boCKd4025jhQLQM9MOTWnPhagcQMaNuA6c42fXdkA9LdoVPG3HnyAW2xAVdbOPCorJmA3TDg2b0kQD0HtmIDFcXhmG7xoQyt7XHA9yMnCpIJVlZCNOd/EkgZkazy1zghY+qxCSs1uibuWHb2l8AFgS+097tpTews/AA62rjW1DvAFmDNl7wpYUV6fjTcAxfxRPw3VYQF/APSFrCM7LxohAMQUBAUQIwyA06P7hFBAkdCXpAgGUBAUwA8AghDkJsqXUZ5I8lSWF5O8nOUbinxLk2+q8m1dfrDIjzb54So/3hmaOoCrKQIMglRbgEaQtAW0QVMwrRrdD/iy94c/WjQ8u/DJvNYAAAAASUVORK5CYII=");
+   background-repeat: no-repeat;
+   background-size: 16px 16px;
+   background-position: 50% 50%;
+   -webkit-transition: background 0.5s linear;
+   transition: background 0.5s linear;
+   border-left: solid 1px #999;
+   border-bottom: solid 2px #023;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   cursor: pointer;
+}
+
+#ClearButton.Success {
+   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAZFJREFUeNrtm0FKAzEUhlvpUrHMqtADCC56AzdCb+CRPEwX3kDoRvAGeoJZdCUOzn78C1nZMElJXlLb74dHFk3SvG/evCRDMp0U1iCN/T6VSo7nanLhAgAA/O/pUraRtUNAvnf8mPqp7YewWufL0ptzPB3eqXiXNTEE/yatGCdTlPB/X7IHNf8MRcBzrPP/TI3zLRgB3ypuCzyR0hGwV6/mNyEAg+WAQvP8se1Tx8ssAIAL1yw1CXnUjSXRxCTZ584JFhGwNXxgr9lnldy7NTW/V/FmsJbwLmRSx589AtwAV7IX2S5DlzvX1yrkfJUI8NSfq0pn9C3hWsVPznWIRQ54NMwB6yJfbBJ3Yx+yxmBcjevbdDeaazu634I+yRYZHF+4vlqL7bhFDiiqU8wBLIUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6ZZagel7/gQAQAAQN0cUPtMEBEAAACYA+jO2N8+BsD2jAEc3DfwnRS1Ou9fW3EXJw3O+9fW6H2DXwyV/bjOkCPhAAAAAElFTkSuQmCC');
+   -webkit-transition: background 0s linear;
+   transition: background 0s linear;
+}
 
 /* Bookmarklet view */
 

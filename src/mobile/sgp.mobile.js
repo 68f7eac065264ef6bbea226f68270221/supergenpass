@@ -56,6 +56,7 @@ var selectors =
     'Generate',
     'MaskText',
     'CopyButton',
+    'ClearButton',
     'Output',
     'Canvas',
     'Options',
@@ -355,10 +356,33 @@ $el.CopyButton.on('click', function (e) {
   if (success) {
     showButtonSuccess(e);
     $el.Result.removeClass('Reveal');
+    setTimeout(function () {
+      try {
+        navigator.clipboard.writeText('')
+          .catch(function () {});
+      } catch (err) {}
+    }, 4000);
     return;
   }
 
   $el.CopyButton.hide();
+});
+
+// Clear clipboard if possible.
+$el.ClearButton.on('click', function (e) {
+  try {
+    navigator.clipboard.writeText('')
+      .then(function () {
+        showButtonSuccess(e);
+        $el.Result.removeClass('Reveal');
+      })
+      .catch(function () {
+        $el.ClearButton.hide();
+      });
+    return;
+  } catch (err) {}
+
+  $el.ClearButton.hide();
 });
 
 // Bind to interaction events.
